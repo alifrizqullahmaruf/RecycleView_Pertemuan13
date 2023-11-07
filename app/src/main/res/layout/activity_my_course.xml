@@ -5,8 +5,9 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:layout_margin="8dp"
-    tools:context=".MyCourse">
+    tools:context=".MyCourse"
+    android:background="@drawable/back2"
+    >
 
     <TextView
         android:id="@+id/heading"
@@ -14,9 +15,10 @@
         android:layout_height="wrap_content"
         android:padding="18dp"
         android:text="Bitcoin Increase 30%"
-        android:textColor="@color/black"
-        android:textSize="25sp"
+        android:textColor="@color/white"
+        android:textSize="35sp"
         android:textStyle="bold"
+        android:layout_marginTop="18dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -37,6 +39,7 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
 
+
             >
 
             <com.google.android.material.imageview.ShapeableImageView
@@ -51,11 +54,14 @@
 
             <TextView
                 android:id="@+id/descFull"
-                android:layout_width="0dp"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="15dp"
+                android:layout_margin="10dp"
                 android:text="by Alif News"
-                android:textColor="@color/black" />
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                />
 
         </LinearLayout>
     </ScrollView>

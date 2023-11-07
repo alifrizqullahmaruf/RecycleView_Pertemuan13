@@ -81,7 +81,7 @@ class MainActivity : AppCompatActivity() {
                 val intent = Intent( this@MainActivity, MyCourse::class.java)
                 intent.putExtra( "heading", newArrayList[position].heading)
                 intent.putExtra( "imageId",newArrayList[position].titleImage)
-                intent.putExtra( "news", descFull[position])
+                intent.putExtra( "descFull", descFull[position])
                 startActivity(intent)
             }
             
